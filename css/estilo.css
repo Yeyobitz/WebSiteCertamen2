@@ -28,6 +28,10 @@ h1,h2,h3,h4,h5{
 .column{
     width: 100%;
 }
+.button-container {
+    display: flex;
+    justify-content: center;
+}
 
 /*----------------Estilos Header------------------*/
 
@@ -37,13 +41,13 @@ h1,h2,h3,h4,h5{
 }
 .logo{
     font-size: 1.9em;
-    color: #de423a;
+    color: #c29a10;
     padding: 10px;
     font-family: 'Sacramento', cursive;
         
 }
 .main-header__contactInfo__phone{
-    background:#de423a;
+    background:#c29a10;
     color: #fff;
     padding: 10px;
     margin: 0;
@@ -131,10 +135,10 @@ h1,h2,h3,h4,h5{
     
 }
 .menu__link:hover{
-     background-color: #DE423A;
+     background-color: #a3830e;
 }
 .menu__link--select{
-    background-color: #DE423A;
+    background-color: #a3830e;
     
 }
 .mostrar{
@@ -176,7 +180,7 @@ h1,h2,h3,h4,h5{
 
 /*----------------Estilos Principales------------------*/
 .group--color .container{
-	background-color: #DE423A;
+	background-color: #c29a10;
 	padding: 10px;
 	text-align: center;
 	
@@ -189,6 +193,7 @@ h1,h2,h3,h4,h5{
 }
 .column__title{
 	font-size: 1.3em;
+	text-align: center;
 }
 .main__about_description .column:nth-child(2){
 	padding: 10px;
@@ -199,7 +204,7 @@ h1,h2,h3,h4,h5{
 	text-align: center;
 	text-decoration: none;
 	width: 120px;
-	background: #DE423A;
+	background: #c29a10;
 	color: #fff;
 	padding:10px;
 	margin: 10px auto;
@@ -231,7 +236,7 @@ h1,h2,h3,h4,h5{
 }
 .today-special__price{
 	font-size: 1.5em;
-	color: #DE423a;
+	color: #c29a10;
 	font-weight: bold;
 }
 
@@ -263,6 +268,40 @@ h1,h2,h3,h4,h5{
 	right: 5px;
 }
 
+/*----------------Carousel-----------------------------*/
+.carousel {
+    position: relative;
+    max-width: 600px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.carousel__images img {
+    width: 100%;
+    display: none;
+}
+
+.carousel__btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0,0,0,0.5);
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    z-index: 100;
+}
+
+.carousel__btn--left {
+    left: 0;
+}
+
+.carousel__btn--right {
+    right: 0;
+}
+
+
 /*----------------Estilos Responsivos------------------*/
 
 @media screen and (min-width:480px){
@@ -291,6 +330,10 @@ h1,h2,h3,h4,h5{
 	}
 	.column--50{
 		width: 49%;
+	}
+	.column--50 img {
+		padding: 10px; /* Ajusta este valor a tus necesidades */
+		border-radius: 10%;
 	}
 	.column--50--25{
 		width: 49%;
@@ -377,8 +420,8 @@ h1,h2,h3,h4,h5{
 	}
 	.main__about_description .column--50:nth-child(2) .column__txt
 	{
-		line-height: 55px;
-		text-align: justify;
+		line-height: 25px;
+		text-align: center;
 		
 	}
 	.group__title{
