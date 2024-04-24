@@ -6,10 +6,14 @@
 	align-items: flex-start;
 }
 .our-team__title{
-	font-family: 'Pacifico',cursive;
-	color: #de423a;
+	font-family: 'Courier New', Courier, monospace;
+	color: #c29a10;
 	font-size: 1.8em;
 	margin-bottom: 10px;
+}
+.our-team__title:hover{
+	transition: 0.3s;
+	color: #f6c101;
 }
 .our-team__img
 {
@@ -21,19 +25,19 @@
 }
 .our-team__txt{
 	padding: 10px;
-	text-align:justify;
+	text-align:center;
 }
 
 @media screen and (min-width:480px){
 	.our-team__img{
-		width: 200px;
-		height: 200px;
+		width: 100px;
+		height: 100px;
 	}
 }
 @media screen and (min-width:1024px){
 	.our-team__img{
-		width: 300px;
-		height: 300px;
+		width: 200px;
+		height: 200px;
 	}
 	.our-team__title{
 		font-size: 2.1;

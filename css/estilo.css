@@ -18,6 +18,7 @@ h1,h2,h3,h4,h5{
 .container{
     width: 100%;
     margin: auto;
+	border-radius: 20px;
 }
 .container--flex{
     display: flex;
@@ -243,7 +244,7 @@ h1,h2,h3,h4,h5{
 /*----------------Estilos Principales------------------*/
 .main-footer{
 	background: #222;
-	color: #fff;
+	color: #cecece;
 	padding: 10px;
 	padding-top: 20px;
 	padding-bottom: 20px;
@@ -267,40 +268,6 @@ h1,h2,h3,h4,h5{
 	top: 3px;
 	right: 5px;
 }
-
-/*----------------Carousel-----------------------------*/
-.carousel {
-    position: relative;
-    max-width: 600px;
-    margin: auto;
-    overflow: hidden;
-}
-
-.carousel__images img {
-    width: 100%;
-    display: none;
-}
-
-.carousel__btn {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    background-color: rgba(0,0,0,0.5);
-    color: white;
-    border: none;
-    cursor: pointer;
-    padding: 10px;
-    z-index: 100;
-}
-
-.carousel__btn--left {
-    left: 0;
-}
-
-.carousel__btn--right {
-    right: 0;
-}
-
 
 /*----------------Estilos Responsivos------------------*/
 

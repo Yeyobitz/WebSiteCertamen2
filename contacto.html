@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Contacto</title>
+    <meta name="viewport" content="width=device-width, user-scalable=yes, initial-scale=1.0, maximum-scale=2.0, minimum-scale=1.0">
+    <link rel="stylesheet" href="css/contacto.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/estilo.css">
+    
+    <link href="https://file.myfontastic.com/3j45yvRpaWhzeStdASehh9/icons.css" rel="stylesheet">
+</head>
+<body>
+    <header class="main-header">
+        <div class="container container--flex">
+            <div class="logo-container column column--50">
+                <h1 class="logo">Restaurante de Sanji</h1>
+            </div>
+            <div class="main-header__contactInfo column column--50">
+                <p class="main-header__contactInfo__phone">
+                    <span class="icon-phone">XXX-XXXXXXX</span>
+                </p>
+                <p class="main-header__contactInfo__addres">
+                    <span class="icon-location">Grand Line</span>
+                </p>
+                
+            </div>
+        </div>
+    </header>
+    <nav class="main_nav">
+        <div class="container container--flex">
+            <span class="icon-menu" id="btnmenu"></span>
+            <ul class="menu" id="menu">
+                <li class="menu__item"><a href="index.html" class="menu__link menu__link">Inicio</a></li>
+                <li class="menu__item"><a href="nosotros.html" class="menu__link">Nosotros</a></li>
+                <li class="menu__item"><a href="galeria.html" class="menu__link">Galeria</a></li>
+                <li class="menu__item"><a href="contacto.html" class="menu__link menu__link--select">Contacto</a></li>
+            </ul>
+            <div class="social-icon">
+                <a href="" class="social-icon__link"><span class="icon-facebook"></span></a>
+                <a href="" class="social-icon__link"><span class="icon-twitter"></span></a>
+                <a href="" class="social-icon__link"><span class="icon-instagram"></span></a>
+            </div>
+        </div>
+    </nav>
+    <section class="banner">
+        <img src="./img/contact-banner.jpg" alt="" class="banner__img">
+        <div class="banner__content">Nuestra casa es tu casa</div>
+    </section>
+    <main class="main">
+        <section class="group--color">
+            <div class="container">
+                <h2 class="main__title">Contacto</h2>
+                <p class="main_txt">
+                   En caso de tener alguna consulta o problema con alguno de nuestros productos, envianos un mensaje y te daremos atencion!.
+                </p>
+            </div>
+        </section>
+
+            <!-- formulario//////////////////////////////////////////////////////////////////////// -->
+    <section class="form-container">
+        <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label">Nombre Completo:</label>
+            <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Nombre">
+            <label for="exampleFormControlInput1" class="form-label">Email:</label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="nombre@ejemplo.com">
+
+        </div>
+        <div class="mb-3">
+            <label for="exampleFormControlTextarea1" class="form-label">Mensaje:</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="5"></textarea>
+        </div>
+    </section>
+
+    <section class="map container">
+        <div>
+            <h1>Encuentranos en el mapa</h1>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m21!1m12!1m3!1d3062.6852624953713!2d-73.07607438139071!3d-36.81165076583722!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m6!3e6!4m0!4m3!3m2!1d-36.81329377539149!2d-73.0758789318396!5e0!3m2!1ses-419!2scl!4v1713766851920!5m2!1ses-419!2scl" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </section>
+    
+
+
+    <!-- footer------------------------------------------ -->
+    <footer class="main-footer">
+        <div class="footer1 container container--flex">
+            <div class="column column--33">
+                <h2 class="column__title">Visitanos</h2>
+                <p class="column__txt">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat illo atque impedit, repudiandae </p>
+            </div>
+
+            <div class="column column--33">
+                <h2 class="column__title">Contactenos</h2>
+                <p class="column__txt">Concepcion, Maipu, Local 512</p>
+                <p class="column__txt">Telefono: +56945320134</p>
+            </div>
+
+            <div class="column column--33">
+                <h2 class="column__title">Siguenos</h2>
+                <p class="column__txt"><a href="" class="icon-facebook">Facebook</a></p>
+                <p class="column__txt"><a href="" class="icon-twitter">Twitter</a></p>
+                <p class="column__txt"><a href="" class="icon-instagram">Instagram</a></p>
+            </div>
+            
+            <p class="copy">2024 Tu Tienda de Mate favorita | Todos los derechos reservados</p>
+        </div>
+    </footer>
+    <script src="js/menu.js"></script>
+      	
+</body>
+</html>
